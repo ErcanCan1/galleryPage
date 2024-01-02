@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cats</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My Cats</h1>
+    <div class="gallery">
+      <div class="item">
+        <img class="thumbnail" onclick="showModal(this)"
+          src="https://mimo.app/i/whispurr.png" alt="whispurr">
+        <h2>Whispurr</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+          odit sapiente ipsa cupiditate praesentium quisquam aspernatur
+          excepturi quis nemo, non nobis iure maxime rerum sit cumque ducimus.
+          Illum, non cumque.</p>
+      </div>
+      <div class="item">
+        <img class="thumbnail" onclick="showModal(this)"
+          src="https://mimo.app/i/nacho.png" alt="nacho">
+        <h2>Nacho</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+          odit sapiente ipsa cupiditate praesentium quisquam aspernatur
+          excepturi quis nemo, non nobis iure maxime rerum sit cumque ducimus.
+          Illum, non cumque.</p>
+      </div>
+      <div class="item">
+        <img class="thumbnail" onclick="showModal(this)"
+          src="https://mimo.app/i/babaganoosh.png" alt="babaganoosh">
+        <h2>Babaganoosh</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+          odit sapiente ipsa cupiditate praesentium quisquam aspernatur
+          excepturi quis nemo, non nobis iure maxime rerum sit cumque ducimus.
+          Illum, non cumque.</p>
+      </div>
+    </div>
+    <div id="modal" >
+      <span id="modal-close-button" onclick="hideModal()">x</span>
+      <img id="modal-content" src="" alt="">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
